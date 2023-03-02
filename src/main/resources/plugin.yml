@@ -1,0 +1,5 @@
+name: DatabaseExample
+version: '${project.version}'
+main: com.github.fleivinho.databaseexample.Main
+author: Fleivius
+api-version: 1.13
