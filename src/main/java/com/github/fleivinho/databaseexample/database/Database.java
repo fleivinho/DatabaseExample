@@ -72,7 +72,6 @@ public abstract class Database {
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, newValue);
             statement.setString(2, conditionValue);
-            int rowsUpdated = statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -102,6 +101,4 @@ public abstract class Database {
             e.printStackTrace();
         }
     }
-
-
 }
