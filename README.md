@@ -1,5 +1,5 @@
 # DatabaseExample
-Um projeto com exemplo de uso de banco de dados e cache.
+Um projeto com exemplo de uso de banco de dados e cache. (Apenas mais um projeto para usar de portfolio)
 
 ## O que há no projeto?
 * Programação orientada a objetos
